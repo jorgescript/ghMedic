@@ -112,7 +112,10 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     background-color: #ffffff;
+    padding-left: 20px;
+    padding-bottom: 20px;
   }
 }
 

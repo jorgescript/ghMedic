@@ -15,6 +15,7 @@ btnsub.addEventListener("click", function (e) {
     popTitle.textContent = "Por favor asegurate de llenar el formulario";
     popParrafo.textContent =
       "Los campos Nombre, Telefono y Correo son necesario";
+    popParrafo.style.color = "red";
     overlay.classList.add("active");
     popup.classList.add("active");
   } else {
